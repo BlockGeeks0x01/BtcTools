@@ -14,6 +14,7 @@ def config_logging():
 
 
 if __name__ == '__main__':
+    config_logging()
     api_end_point = "https://blockstream.info/api/"
     session = requests.session()
 
